@@ -1,7 +1,71 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
+body {
+    color: #777777;
+    background-image: url('../images/light-grey-terrazzo.png');
+    font-family: 'Times New Roman', Times, serif;
+    /* overflow: auto; */
+  }
+
 .container {
     width: 960px;
 }
 
-.borderbottom {
-    border-bottom: 30px;
+.row {
+    width: 960px;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+.maincontent {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    height: 400px;
+}
+
+h1, h2 {
+    color: #4aaaa5;
+}
+
+.navbar-text {
+    background-color: #4aaaa5;
+}
+
+.borderright {
+    border-right: 1px solid #dddddd;
+}
+
+#aboutme {
+    border-bottom: 2px solid #dddddd;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+}
+
+.navbarcolor {
+    color: white;
+}
+
+.footer {
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
